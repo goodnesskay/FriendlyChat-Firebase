@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Friendly Chat</string>
+    <string name="message_here">Message here</string>
+    <string name="message_here_hint">Message here</string>
+    <string name="send">send</string>
+    <string name="sign_out">Sign Out</string>
+</resources>
