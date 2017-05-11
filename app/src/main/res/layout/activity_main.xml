@@ -7,15 +7,15 @@
     android:padding="16dp"
     tools:context="me.goodnesskayode.friendlychat.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/message_here"
-        android:layout_centerHorizontal="true"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        />
-    
+
+        <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stackFromBottom="true"
+        android:divider="@android:color/transparent"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/item_message"/>
 
     <EditText
         android:id="@+id/message_box"
